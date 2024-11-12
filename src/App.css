@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Doto:wght@100..900&family=Nabla&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(44, 41, 41);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+
+}
+
+nav h2 {
+  font-family: Nabla;
+  font-size: 40px;
+  margin: auto 20px;
+  
+}
+
+nav ul {
+  display: flex;
+  font-family: 'poppins';
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 40px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in; 
+}
+
+.home {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 90px auto;
+}
+
+.home-1 {
+  text-align: center;
+}
+
+.home-1 h1 {
+  font-family: zen dots;
+  font-size: 50px;
+}
+
+.home-1 h2 {
+  font-family: Doto;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.home-2 img{
+  width: 300px;
+  border-radius: 50%;
+}
+
+.icons spam{
+  padding: 10px;
+  font-size: 30px;
+  
+}
+
+.icons a {
+  text-decoration: none;
+  color: black;
+}
