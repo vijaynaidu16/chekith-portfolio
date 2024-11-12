@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className="home">
         <div className="home-1">
-           <h1> Hi, I am Chekith & </h1>
-           <h2>I am a UI UX Designer</h2>
+           <h1> Hi 👋, I am Chekith & </h1>
+           <h2>I am a UI/UX Designer</h2>
            <div className="icons">
            <a href="https://github.com/chekith" target="_blank"><spam><FaGithub /></spam></a>
            <a href="https://x.com/Chekith4?t=lWxDFpnhRelw76Ts4KsUkQ&s=08" target="_blank"><spam><FaXTwitter /></spam></a>
@@ -14,7 +14,7 @@ const Home = () => {
 
         </div>
         <div className="home-2">
-            <img src="src\assets\chekith.jpg" alt="" />
+            <img src="src\assets\chekith.png" alt="" />
         </div>
 
         {/* <button onClick={handle}>{login ? "login" : "logout"}</button> */}
