@@ -14,7 +14,7 @@ const Home = () => {
 
         </div>
         <div className="home-2">
-            <img src="./src/assets/chekith.png" alt="" />
+            <img src="src/components/chekith.png" alt="" />
         </div>
 
         {/* <button onClick={handle}>{login ? "login" : "logout"}</button> */}
